@@ -30,14 +30,13 @@ EconomyAPI.getInstance().addMoney(player, amount);
 ### Maven repository
 ```xml
 <repository>
-    <id>nukkitx-repo</id>
-    <url>https://repo.nukkitx.com/snapshot</url>
+	<id>jitpack.io</id>
+	<url>https://jitpack.io</url>
 </repository>
 
 <dependency>
-    <groupId>me.onebone</groupId>
-    <artifactId>economyapi</artifactId>
-    <version>2.0.2</version>
-    <scope>provided</scope>
+	<groupId>com.github.wuliao697</groupId>
+	<artifactId>EconomyAPI-PNX</artifactId>
+	<version>Tag</version>
 </dependency>
 ```
