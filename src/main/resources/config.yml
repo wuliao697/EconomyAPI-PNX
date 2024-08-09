@@ -1,0 +1,8 @@
+money:
+  monetary-unit: "$"
+  default: 1000.0
+  max: 9999999.0
+data:
+  language: def
+  auto-save-interval: 10
+  provider: yaml

@@ -1,0 +1,27 @@
+name: EconomyAPI
+version: ${project.version}
+author: onebone
+api: ["2.0.0"]
+main: me.onebone.economyapi.EconomyAPI
+
+permissions:
+  economyapi:
+    children:
+      economyapi.command:
+        children:
+          economyapi.command.mymoney:
+            default: true
+          economyapi.command.topmoney:
+            default: true
+          economyapi.command.seemoney:
+            default: true
+          economyapi.command.givemoney:
+            default: op
+          economyapi.command.takemoney:
+            default: op
+          economyapi.command.pay:
+            default: true
+          economyapi.command.setmoney:
+            default: op
+          economyapi.command.setlang:
+            default: op
