@@ -8,6 +8,7 @@ Core of economy system for Nukkit
  - /takemoney
  - /topmoney
  - /setmoney
+ - /setlang
 
 ## Permissions
 - economyapi
@@ -17,6 +18,7 @@ Core of economy system for Nukkit
 		- economyapi.command.takemoney `OP`
 		- economyapi.command.setmoney `OP`
 		- economyapi.command.topmoney
+  		- economyapi.command.setlang `OP`
 
 ## For developers
 
